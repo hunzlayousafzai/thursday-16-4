@@ -1,0 +1,8 @@
+{
+    "studentID" : "Student1615697" ,
+    "studentName" : "Hunzla" ,
+    "StudentAge" : 19 ,
+    "studentNic" : true ,
+    "studentHobbies" :["reading" , "coding"] ,
+    "studentAddress" : {"karachi" :  "saddar Town" , "peshawer" :  "swabi"} 
+}
