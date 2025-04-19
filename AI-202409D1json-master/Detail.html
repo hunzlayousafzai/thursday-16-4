@@ -4,12 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detail</title>
-    <link rel="stylesheet" href="">
 </head>
+<link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
 <body>
+    <div class="container mt-5 p-5">
+        <div class="row justify-content-around text-justify" id="productDetail">
+           
+        </div>
+    </div>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script>
+        let url = location.href ;
+        console.log(url);
+        let urlobj = new URL(url);
+        console.log(urlobj);
+        let productImage = urlobj.searchParams.get('pImage');
+        let productName = urlobj.searchParams.get('pName');
+        let productPrice = urlobj.searchParams.get('pPrice');
+        let productDes = urlobj.searchParams.get('pDes');
+        // console.log(urlobj.searchParams.get('pName'));
+        $("#productDetail").html(` <div class="col-md-6">
+                    <div class="card">
+                        <img class="card-img-top" src="`+productImage+`" alt="Title" />
+                       
+                    </div>
+                    
+            </div>
+            <div class="col-md-5">
+                <div class="card">
+                   
+                    <div class="card-body">
+                        <h4 class="card-title">`+productName+`</h4>
+                        <p class="card-text">`+productDes+`</p>
+                        <p class="card-text">`+productPrice+`</p>
+                    </div>
+                </div>
+            </div>`)
 
-
-    
-    
+    </script>
 </body>
 </html>

@@ -3,7 +3,7 @@
         "id":1 ,
         "name" : "NikeAQ34" ,
         "price" : 15000 ,
-        "description" : "Hello",
+        "description" : "The Pegasus Premium supercharges responsive cushioning with a triple stack of our most powerful running technologies: ZoomX foam, a sculpted Air Zoom unit and ReactX foam. It's the most responsive Pegasus ever, providing high energy return unlike any other. With a lighter-than-air upper, it decreases weight and increases breathability so you can fly faster.",
         "qty" : 45 ,
         "image" : "img.jpg"
     } ,
@@ -12,7 +12,7 @@
         "id":2 ,
         "name" : "NikeAQ35" ,
         "price" :  26000 ,
-        "description": "Hello",
+        "description": "Responsive cushioning in the Pegasus provides an energised ride for everyday road running. Experience lighter-weight energy return with dual Air Zoom units and a ReactX foam midsole. Plus, improved engineered mesh on the upper decreases weight and increases breathability.",
         "qty" : 46 ,
         "image" : "img2.jpg"
     } ,
@@ -20,7 +20,7 @@
         "id":3 ,
         "name" : "Nikeykl38" ,
         "price" :  26000 ,
-        "description": "Hello",
+        "description": "Maximum cushioning provides our most comfortable ride for everyday runs. Experience a breathable Flyknit upper and the robust platform of lightweight ZoomX foam that softens impact. Plus, the midsole of this model is wider and taller than the last for even more cushioned comfort.",
         "qty" : 47 ,
         "image" : "img3.jpg"
     } ,
@@ -28,7 +28,7 @@
         "id":4 ,
         "name" : "NikeAy35" ,
         "price" : 27000 ,
-        "description": "Hello",
+        "description": "We loaded the Revolution 7 with the sort of soft cushioning and support that might change your running world. Stylish as ever, comfortable when the rubber meets the road and performance-driven for your desired pace, it's an evolution of a fan favourite that offers a soft, smooth ride.",
         "qty" : 49 ,
         "image" : "img4.jpg"
     }
